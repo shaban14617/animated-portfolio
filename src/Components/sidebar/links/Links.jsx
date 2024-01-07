@@ -24,7 +24,7 @@ function Links() {
       opacity: 0,
     },
   };
-  const items = ["Homepage", "Services", "Portfolio", "Contact", "About"];
+  const items = ["Homepage", "Portfolio", "Contact"];
   return (
     <motion.div className="links" variants={variants}>
       {items.map((item) => (
